@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <ul>
+    <p><h4><li>Here are some best practices for password reset services:</li></h4> 
+        Use secure tokens: Generate tokens randomly using a cryptographically safe algorithm. Make sure the tokens are long enough to prevent brute force attacks, and only use them once. You can also store the hashed version of the tokens in the database to protect against theft. 
+        Set an expiration time: Set a reasonable expiration time for tokens, such as 20 minutes to one hour, to limit the window of opportunity for an attack. 
+        Implement rate limiting: Limit the number of password reset requests that can be made within a given time frame to prevent abuse. 
+        Verify the user's identity: Don't use common security questions like mother's maiden name, high school, or hire date. 
+        Don't send passwords in emails: Don't send the new or temporary password in the email, and also don't send the account holder's username. 
+        Use a side-channel: Use a side-channel to communicate the method to reset their password. 
+        Use URL tokens: Use URL tokens for the simplest and fastest implementation.</p></ul>
+    
+</body>
+</html>
