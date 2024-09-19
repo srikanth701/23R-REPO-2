@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            border: 2px solid black;
+            height: 170vh;
+            width: 80vw;
+            display: grid;
+            padding: 25px;
+            background-color:brown;
+            gap: 25px;
+
+            grid-template-areas: 
+            'area1  area2 area3 '
+            'area1  area5 area6'
+            'area7   area5  area4   ';
+        }
+        .class{
+            background-color: aqua;
+            /* height: 50px; */
+            /* width: 50px; */
+        }
+        .class1{
+            background-image: url(https://i.pinimg.com/736x/54/7e/a2/547ea26311a3916821c78b7e85ef470a.jpg);
+            background-size: cover;
+            grid-area: area1;
+        }
+        .class2{
+            background-image: url(https://m.media-amazon.com/images/M/MV5BZGI4YTQ5ZmEtMzllOC00NjlhLTg2ODMtN2I0MzVkYWQzZDI5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_FMjpg_UX1000_.jpg);
+            background-size: cover;
+            grid-area: area2;
+        }
+        .class3{
+            background-image: url(https://i.pinimg.com/736x/18/09/bc/1809bc9081210f2804fe4dfd7f352d52.jpg);
+            background-size: cover;
+            grid-area: area3;
+        }
+        .class4{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfDcBlJx8_doVvJpB6VS4ONZnV11Ni_94o8w&s);
+            background-size: cover;
+            grid-area: area4;
+        }
+        .class5{
+            background-image: url(https://w0.peakpx.com/wallpaper/461/141/HD-wallpaper-allu-arjun-ka-movie-half-face-actor-south-indian.jpg);
+            background-size: cover;
+            grid-area: area5;
+        }
+        .class6{
+            background-image: url(https://images.filmibeat.com/ph-big/2016/04/allu-arjun_145951150120.jpg);
+            background-size: cover;
+            grid-area: area6;
+        }
+        .class7{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-qxlWWyT4wMSlkJQfOBBeQ6if7J-imG-ZBg&s);
+            background-size: cover;
+            grid-area: area7;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class=" class  class1"></div>
+        <div class="class class2"></div>
+        <div class="class class3"></div>
+        <div class=" class class4"></div>
+        <div class="class class5"></div>
+        <div class="class class6"></div>
+        <div class="class class7"></div>
+    </div>
+</body>
+</html>
