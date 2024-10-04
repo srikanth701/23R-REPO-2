@@ -8,37 +8,59 @@
     <script href="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     <style>
         .img{
-            background-image: url(../asserts/images/travel.avif);
-            height: 130vh;
-            width: 120vw;
+            background-image: url(https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww);
+            height: 120vh;
+            width: 100vw;
             background-size: cover;
             overflow: hidden;
         }
-        .navbar{
+         .container-fluid{
+            position: relative;
+            left: 120vh;
             font-size: 3vh;
+            row-gap: 5vh;
+            
+         }
+         .navbar-brand{
             position: relative;
-            left: 130vh;
-        
-        }
-        .navbar-brand{
-            position: relative;
-            left: -90vh;
+            left: -60vh;
             font-size: 3vh;
             color: blue;
-        }
-        .img h2{
-            font-size: 10vh;
+         }
+         .head{
+            font-size: 20vh;
             position: relative;
-            top: 30vh;
-            left: 30vh;
+            top: 10vh;
+            left: 20vw;
             color: white;
-        }
+         }
+         p{
+            font-size: 5vh;
+            color: white;
+            width: 40vw;
+            position: relative;
+            left: 43vh;
+            top: 10vh;
+         }
+         .btn{
+            position: relative;
+            top: 10vh;
+            left: 20vw;
+            padding: 2vh;
+            background-color: white;
+            color: blue;
+         }
+         .start{
+            position: relative;
+            left: 70vh;
+         }
+
     </style>
 </head>
 <body>
     <div class="img">
-        <h2>Fuel Mind Travel</h2>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <!-- <h2>Fuel Mind Travel</h2> -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Travel</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,10 +69,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">services</a>
+                    <a class="nav-link text-primary" href="#">services</a>
                   </li>
                  
                     <ul class="dropdown-menu">
@@ -61,13 +83,47 @@
                     </ul>
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link  " aria-disabled="true">contact Us</a>
+                    <a class="nav-link text-primary " aria-disabled="true">contact Us</a>
                   </li>
                 </ul>
     
               </div>
             </div>
           </nav>
+          <h2 class="head">Fuel Mind</h2>
+          <h2 class="head"> Travel</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dicta.</p>
+          <button class="btn btn-primary">Let's Go Now</button>
+    </div>
+    <div></div>
+        <h1 class="start">start your vaction</h1>
+        <h1 class="start">with lot of services</h1>
+        <div class="d-flex m-4 p-4 justify-content-center" style="gap: 50px;">
+            <div class="card" style="width: 18rem; padding: 25px;">
+              <img src="data:image/webp;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2>Ship Cruise</h2>
+                <h3>150 Properties</h3>
+
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; padding: 25px;">
+              <img src="data:image/webp;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2>Ship Cruise</h2>
+                <h3 >150 Properties</h3>
+
+              </div>
+            </div>
+            <div class="card" style="width: 18rem; padding: 25px;">
+              <img src="data:image/webp;base64,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" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2>Ship Cruise</h2>
+                <h3>150 Properties</h3>
+              </div>
+            </div>
+            
+          </div>
     </div>
 </body>
 </html>
