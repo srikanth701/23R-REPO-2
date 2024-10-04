@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script href="../bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <style>
+        .img{
+            background-image: url(../asserts/images/travel.avif);
+            height: 130vh;
+            width: 120vw;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .navbar{
+            font-size: 3vh;
+            position: relative;
+            left: 130vh;
+        
+        }
+        .navbar-brand{
+            position: relative;
+            left: -90vh;
+            font-size: 3vh;
+            color: blue;
+        }
+        .img h2{
+            font-size: 10vh;
+            position: relative;
+            top: 30vh;
+            left: 30vh;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+        <h2>Fuel Mind Travel</h2>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Travel</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">services</a>
+                  </li>
+                 
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link  " aria-disabled="true">contact Us</a>
+                  </li>
+                </ul>
+    
+              </div>
+            </div>
+          </nav>
+    </div>
+</body>
+</html>
